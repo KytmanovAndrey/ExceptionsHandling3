@@ -63,9 +63,9 @@ public class DataCollectorApp {
 
     public static void printString(int number){
         if (number == -1)
-            System.out.println("Вы ввели меньше данных чем требуется");
+            System.out.println(number + "\nВы ввели меньше данных чем требуется");
         else if (number == -2)
-            System.out.println("Вы ввели больше данных чем требуется");
+            System.out.println(number + "\nВы ввели больше данных чем требуется");
     }
 
     public static void recordToFile(List<String> dataRequest, String[] input) {
